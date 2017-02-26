@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.rps {
+
+}
+
+.rps-title {
+  font-size: 20px;
+}
+
+.rps-label {
+  line-height: 1.4;
+}
