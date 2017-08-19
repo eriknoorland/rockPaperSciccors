@@ -12,15 +12,8 @@
       mocha.setup('bdd');
       expect = chai.expect;
       var should = chai.should();
-
-      var require = {
-        baseUrl: '/js/',
-        paths: {
-          test: '/test/'
-        }
-      };
     </script>
 
-    <script src="/vendor/require/require.js" data-main="/test/test.js"></script>
+    <script src="../dist/test.bundle.js"></script>
   </body>
 </html>

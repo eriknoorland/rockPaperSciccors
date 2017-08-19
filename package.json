@@ -4,16 +4,16 @@
   "description": "Rock, Paper, Scissors game",
   "main": "index.js",
   "scripts": {
-    "start": "grunt serve",
-    "test": "./node_modules/.bin/mocha-phantomjs http://0.0.0.0:8000/test/"
+    "webpack": "webpack --config webpack.config.js",
+    "test": "mocha-phantomjs http://0.0.0.0:8000/test/"
   },
   "author": "Erik Noorland",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-connect": "^1.0.2",
-    "jit-grunt": "^0.10.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
     "mocha-phantomjs": "^4.1.0",
-    "time-grunt": "^1.4.0"
+    "webpack": "^3.5.5"
   }
 }
